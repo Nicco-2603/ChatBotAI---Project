@@ -7,7 +7,6 @@ import numpy as np
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-
 from model import NeuralNet
 
 # Legge il contenuto di un file JSON chiamato intents.json e carica un dizionario chiamato intents. i dati letti sul file JSON vengono inizializzati su una variabile intents
@@ -39,14 +38,10 @@ for intent in intents['intents']:
         xy.append((w,tag))
 
 ignore_words = ['?','!','.',',']
+
 all_words = [stem(w) for w in all_words if w not in ignore_words]
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))
-#print("i tags sono:")
-#print(tags)
-#print(xy)
-#print(w)
-#print(all_words)
 
 X_train = []
 y_train = []

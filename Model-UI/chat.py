@@ -6,6 +6,7 @@ from nltk_utils import bag_of_words, tokenize
 import streamlit as st
 from streamlit import session_state
 
+
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 with open('intents.json','r') as json_data:
@@ -68,6 +69,7 @@ model.eval()
 
 bot_name = "Michele"
 
+
 with st.sidebar:
     st.title('💬 AI ChatBot')
     st.write('Questo chatbot è stato addestrato su un dataset di domande e risposte. Prova a fare una domanda! 🤖')
@@ -123,8 +125,9 @@ if user_question:
           if prob.item() > 0.75:
             for intent in intents['intents']:
               if tag == intent["tag"]:
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
-                response_text = f"{bot_name}: {random.choice(intent['responses'])}"
+                risp = random.choice(intent['responses'])  
+                print(f"{bot_name}: {risp}")
+                response_text = f"{bot_name}: {risp}"
                 session_state.listamessaggi.append(response_text)
                 print(session_state.listamessaggi)
                 
