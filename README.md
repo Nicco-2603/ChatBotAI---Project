@@ -6,13 +6,13 @@ Tramite PyTorch e Streamlit abbiamo creato un chatbot addestrato su una fantomat
 ## Installazione
 
 1. Clona il repository: `git clone https://github.com/tuo-username/nome-repository.git`
-2. Entra nella directory del progetto: `cd nome-repository`
-3. Installa le dipendenze: `npm install`
+2. Entra nella directory del progetto: `cd Model-UI`
+3. Crea l'ambiente virtuale: `CTRL+SHIFT+P >> Python:Create Environvemnt" >> .Venv >> Install Requirements.txt`
 
 ## Utilizzo
 
-1. Avvia l'applicazione: `npm start`
-2. Apri il browser e vai all'indirizzo `http://localhost:3000`
+1. Crea un nuovo terminale
+2. Lancia il seguente comando: `streamlit run chat.py`
 
 ## Contributi
 
@@ -23,8 +23,7 @@ Sono benvenuti i contributi! Se desideri contribuire a questo progetto, segui qu
 3. Fai le tue modifiche
 4. Fai il commit delle tue modifiche: `git commit -m 'Descrizione delle modifiche'`
 5. Pusha il tuo branch: `git push origin nome-branch`
-6. Apri una pull request nel repository originale
 
 ## Licenza
 
-Questo progetto è concesso in licenza con [Nome della Licenza](link-alla-licenza).
+Questo progetto è concesso in licenza con [MIT](link-alla-licenza).
