@@ -3,6 +3,16 @@
 CHATBOT AI - Assistente Virtuale
 Tramite PyTorch e Streamlit abbiamo creato un chatbot addestrato su una fantomatica compagnia telefonica e con il quale è possibile comunicare.
 
+Realizzato durante l'a.s 2023/2024. 
+Istituto Tecnico Industriale Tito Sarrocchi - Siena
+
+## Credits
+- NICCOLÓ CETOLONI
+- LORENZO LOMBRICHI
+- MIRKO BRUTTINI
+
+  Docente: SIMONE GIULIANI
+
 ## Documentazione
 https://niccos-organization.gitbook.io/untitled
 
