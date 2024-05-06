@@ -3,6 +3,12 @@
 CHATBOT AI - Assistente Virtuale
 Tramite PyTorch e Streamlit abbiamo creato un chatbot addestrato su una fantomatica compagnia telefonica e con il quale è possibile comunicare.
 
+## Documentazione
+https://niccos-organization.gitbook.io/untitled
+
+## Presentazione
+https://pitch.com/v/untitled-presentation-bku8bx
+
 ## Installazione
 
 1. Clona il repository: `git clone https://github.com/tuo-username/nome-repository.git`
