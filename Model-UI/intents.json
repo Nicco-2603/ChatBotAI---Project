@@ -28,92 +28,73 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "Arrivederci", "Goodbye"],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Ci sentiamo, grazie per la visita",
+        "Ciao, passa una buona giornata",
+        "Ciao!Torna presto a trovarmi."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": ["Thanks", "Thank you", "Grazie", "Grazie mille!"],
+      "responses": ["Di nulla, sempre felice di aiutarti!", "Di nulla, sono qui quando vuoi!", "Di nulla, lo faccio con piacere"]
     },
     {
-      "tag": "dati",
+      "tag": "datimobile",
       "patterns": [
-        "Quanti giga ho a mia disposizione?",
-        "Numero di giga?",
-        "Mi sapresti dire il numero di giga?",
-        "Quanti minuti ho a mia disposizione?",
-        "Numero di minuti?",
-        "Mi sapresti dire il numero di minuti?",
-        "La navigazione è sicura?",
-        "Il pacchetto include la navigazione sicura?",
-        "Ho l’assistenza inclusa in caso di problemi?",
-        "Cosa include il pacchetto?",
-        "Quanto costa?",
-        "Quanto devo pagare al mese?"
+        "Quanti gigabyte ho nel mio piano dati?",
+        "Qual è il limite di dati nel mio piano?",
+        "Di quanti gigabyte dispongo?",
+        "Quanta capacità dati ho nel mio piano?",
+        "Di quanti gigabyte dispongo ogni mese?"
       ],
       "responses": [
-        "Hai a tua disposizione Giga illimitati.",
-        "I Giga sono illimitati.",
-        "Il pacchetto offre un numero di Giga illimitati.",
-        "Hai a tua disposizione minuti illimitati.",
-        "I minuti sono illimitati.",
-        "Il pacchetto offre minuti illimitati.",
-        "Si, la navigazione con TIM 5G Power Unlimited è sicura.",
-        "Si, il pacchetto includa la navigazione sicura.",
-        "Si, il pacchetto offre due tipi di assistenza: assistenza immediata e dedicata, assistenza soddisfatti e garantiti.",
+        "I tuoi dati mobili sono illimitati.",
+        "Non c'è limite ai tuoi Giga per la connessione dati.",
+        "Puoi navigare senza limiti grazie ai tuoi Giga illimitati.",
+        "Non c'è limite alla quantità di dati mobili che puoi utilizzare.",
+        "Hai a disposizione una quantità inesauribile di dati mobili."
+      ]
+    },
+    {
+      "tag": "navigazione_sicura",
+      "patterns": [
+        "La navigazione sicura è inclusa nel pacchetto?",
+        "È prevista la navigazione sicura con questo pacchetto?",
+        "Il pacchetto offre la navigazione sicura?",
+        "Questo pacchetto include la navigazione in sicurezza?",
+        "La navigazione sicura è parte delle caratteristiche di questo pacchetto?",
+        "Il pacchetto comprende la navigazione in modo sicuro?",
+        "È incluso il servizio di navigazione sicura con questo pacchetto?"
+      ],
+      "responses": [
+        "Assolutamente, la navigazione con TIM 5G Power Unlimited è protetta.",
+        "Sì, puoi navigare in sicurezza con TIM 5G Power Unlimited.",
+        "Esatto, la navigazione con TIM 5G Power Unlimited è garantita sicura.",
+        "Sicuramente, con TIM 5G Power Unlimited la tua navigazione è sicura.",
+        "Indubbiamente, TIM 5G Power Unlimited offre una navigazione sicura.",
+        "Certo, con TIM 5G Power Unlimited puoi navigare tranquillo, la sicurezza è garantita.",
+        "Senz'altro, TIM 5G Power Unlimited ti offre una navigazione senza preoccupazioni per quanto riguarda la sicurezza."
+      ]
+    },
+    {
+      "tag": "pacchettoelementi",
+      "patterns": [
+        "Quali elementi sono compresi nel pacchetto?",
+        "Che cosa contiene esattamente il pacchetto?",
+        "Di cosa è composto il pacchetto?",
+        "Cosa si trova all'interno del pacchetto?",
+        "Che cosa fa parte del pacchetto?",
+        "Cosa comprende il pacchetto?",
+        "Che cosa fa parte del pacchetto di servizi?"
+      ],
+      "responses": [
         "Il pacchetto include: Giga illimitati 5G, Minuti illimitati e 1000 SMS, Chiamate internazionali Roaming Extra-UE, Navigazione Prioritaria fino a 2Gbps, Navigazione sicura, Assistenza immediata e dedicata, Assistenza soddisfatti e garantiti, TIM One number e Google One 100GB inclusi.",
-        "Il pacchetto costa 39,99 euro al mese.",
-        "Al mese dovrai pagare 39,99 euro."
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Riceverai giga illimitati in 5G, minuti e 1000 SMS, chiamate internazionali extra-UE, navigazione prioritaria fino a 2Gbps, navigazione sicura, assistenza immediata e dedicata, soddisfazione garantita, TIM One number e 100GB di Google One.",
+        "Ottieni giga illimitati in 5G, minuti e 1000 SMS, chiamate internazionali extra-UE, navigazione prioritaria fino a 2Gbps, navigazione sicura, assistenza immediata e dedicata, soddisfazione garantita, TIM One number e 100GB di Google One con questo pacchetto.",
+        "Include giga illimitati in 5G, minuti e 1000 SMS, chiamate internazionali extra-UE, navigazione prioritaria fino a 2Gbps, navigazione sicura, assistenza immediata e dedicata, soddisfazione garantita, TIM One number e 100GB di Google One.",
+        "Avvantaggiati di giga illimitati in 5G, minuti e 1000 SMS, chiamate internazionali extra-UE, navigazione prioritaria fino a 2Gbps, navigazione sicura, assistenza immediata e dedicata, soddisfazione garantita, TIM One number e 100GB di Google One con questo pacchetto."
       ]
     }
   ]

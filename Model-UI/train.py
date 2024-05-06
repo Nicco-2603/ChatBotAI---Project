@@ -53,7 +53,7 @@ for (pattern_sentence, tag) in xy:
     label = tags.index(tag)
     y_train.append(label) # CrossEntropoyLoss
 
-#print(X_train)   
+print(X_train)   
 
 X_train = np.array(X_train)
 y_train = np.array(y_train)
