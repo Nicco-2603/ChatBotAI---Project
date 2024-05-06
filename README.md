@@ -1,4 +1,4 @@
-# Titolo del Progetto
+# ChatBot AI - Michele
 
 CHATBOT AI - Assistente Virtuale
 Tramite PyTorch e Streamlit abbiamo creato un chatbot addestrato su una fantomatica compagnia telefonica e con il quale è possibile comunicare.
