@@ -25,15 +25,15 @@ https://niccos-organization.gitbook.io/untitled
 https://pitch.com/v/untitled-presentation-bku8bx
 
 ## Installazione 🔌
-
-1. Clona il repository: `git clone https://github.com/tuo-username/nome-repository.git`
+1. Clona o scarica il .zip del repository: `git clone https://github.com/tuo-username/nome-repository.git`
 2. Entra nella directory del progetto: `cd Model-UI`
 3. Crea l'ambiente virtuale: `CTRL+SHIFT+P >> Python:Create Environvemnt" >> .Venv >> Install Requirements.txt`
 
-## Utilizzo
+## Avvio
 
 1. Crea un nuovo terminale
-2. Lancia il seguente comando: `streamlit run chat.py`
+2. Lancia il seguente comando: `python train.py`
+3. Una volta completato il calcolo delle loss lancia il seguente comando: `streamlit run chat.py`
 
 ## Contributi
 
