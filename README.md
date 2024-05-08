@@ -9,7 +9,7 @@ Si tratta di un modello classificatore, ossia che assegna una categoria o un'eti
 
 Realizzato durante l'a.s 2023/2024.
 
-Istituto Tecnico Industriale Tito Sarrocchi - Siena
+📌 Istituto Tecnico Industriale Tito Sarrocchi - Siena
 
 ## Credits
 - NICCOLÓ CETOLONI
