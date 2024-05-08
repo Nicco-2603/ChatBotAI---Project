@@ -1,7 +1,11 @@
+![Thumbimg](https://github.com/Nicco-2603/ChatBotAI---Project/blob/main/thumbgithub.png?raw=true)
+
 # ChatBot AI - Michele
 
 CHATBOT AI - Assistente Virtuale
-Tramite PyTorch e Streamlit abbiamo creato un chatbot addestrato su una fantomatica compagnia telefonica e con il quale è possibile comunicare.
+
+Michele è un chatbot sviluppato in Python con il quale puoi comunicare riguardo al tuo piano telefonico.
+Si tratta di un modello classificatore, ossia che assegna una categoria o un'etichetta in base alla domanda classificata in input e sceglie la risposta più appropriata da un elenco di domande-risposte, utilizzato per addestrare il modello.
 
 Realizzato durante l'a.s 2023/2024. 
 Istituto Tecnico Industriale Tito Sarrocchi - Siena
@@ -13,13 +17,13 @@ Istituto Tecnico Industriale Tito Sarrocchi - Siena
 
 Docente: ING. SIMONE GIULIANI
 
-## Documentazione
+## Documentazione 📚
 https://niccos-organization.gitbook.io/untitled
 
-## Presentazione
+## Presentazione 🏆
 https://pitch.com/v/untitled-presentation-bku8bx
 
-## Installazione
+## Installazione 🔌
 
 1. Clona il repository: `git clone https://github.com/tuo-username/nome-repository.git`
 2. Entra nella directory del progetto: `cd Model-UI`
