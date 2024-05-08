@@ -11,7 +11,7 @@ Istituto Tecnico Industriale Tito Sarrocchi - Siena
 - LORENZO LOMBRICHI
 - MIRKO BRUTTINI
 
-  Docente: SIMONE GIULIANI
+Docente: ING. SIMONE GIULIANI
 
 ## Documentazione
 https://niccos-organization.gitbook.io/untitled
