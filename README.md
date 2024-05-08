@@ -1,6 +1,6 @@
 ![Thumbimg](https://github.com/Nicco-2603/ChatBotAI---Project/blob/main/thumbgithub.png?raw=true)
 
-# ChatBot AI - Michele
+# ChatBot AI - Michele 🍝
 
 CHATBOT AI - Assistente Virtuale
 
