@@ -7,7 +7,8 @@ CHATBOT AI - Assistente Virtuale
 Michele è un chatbot sviluppato in Python con il quale puoi comunicare riguardo al tuo piano telefonico.
 Si tratta di un modello classificatore, ossia che assegna una categoria o un'etichetta in base alla domanda classificata in input e sceglie la risposta più appropriata da un elenco di domande-risposte, utilizzato per addestrare il modello.
 
-Realizzato durante l'a.s 2023/2024. 
+Realizzato durante l'a.s 2023/2024.
+
 Istituto Tecnico Industriale Tito Sarrocchi - Siena
 
 ## Credits
