@@ -55,7 +55,7 @@ model.eval()
 bot_name = "Michele"
 
 with st.sidebar:
-    st.title('💬 AI ChatBot')
+    st.title('🍝💬 Michele ChatBot')
     st.write('Questo chatbot è stato addestrato su un dataset di domande e risposte. Prova a fare una domanda! 🤖')
     st.write('E stato creato tramite la libreria PyTorch per il modello di machine learning e rappresentato graficamente con il framework Streamlit.')
     st.write('Credits: ')
@@ -69,8 +69,8 @@ with st.sidebar:
 
     # Visualizzazione della lista non ordinata utilizzando st.write() con HTML
     st.write(ul_list, unsafe_allow_html=True)
-    st.write('Docente: Simone Giuliani')
-    st.write('Istituto Tecnico Industriale Tito Sarrocchi - Siena')
+    st.write('Docente: Ing. Simone Giuliani')
+    st.write('📌 Istituto Tecnico Industriale Tito Sarrocchi - Siena')
     st.write('Anno scolastico 2023/2024')
     st.divider()
     st.title("📂 Repository")

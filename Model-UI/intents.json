@@ -23,25 +23,55 @@
         "Hey :-)",
         "Ciao, grazie per avermi contattato, come posso esserti utile?",
         "Ciao, io sono Michele, l'assistente virtuale per risolvere i tuoi problemi di linea elettrica, come posso esserti utile?",
-        "Ciao, come posso aiutarti?"
+        "Ciao, come posso aiutarti?",
+        "Ciao, come posso esserti utile oggi?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "Arrivederci", "Goodbye"],
+      "patterns": [
+        "Bye", 
+        "Arrivederci", 
+        "Goodbye", 
+        "A presto", 
+        "Ciao ciao", 
+        "Alla prossima", 
+        "A dopo", 
+        "Ci sentiamo"
+      ],
       "responses": [
         "Ci sentiamo, grazie per la visita",
         "Ciao, passa una buona giornata",
-        "Ciao!Torna presto a trovarmi."
+        "Ciao!Torna presto a trovarmi.",
+        "A presto, grazie per avermi contattato",
+        "Arrivederci, grazie per la visita",
+        "Ciao ciao, grazie per avermi contattato"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "Grazie", "Grazie mille!"],
-      "responses": ["Di nulla, sempre felice di aiutarti!", "Di nulla, sono qui quando vuoi!", "Di nulla, lo faccio con piacere"]
+      "patterns": ["Thanks", 
+        "Thank you", 
+        "Grazie", 
+        "Grazie mille!", 
+        "Grazie per l'aiuto", 
+        "Grazie mille per l'aiuto", 
+        "Grazie per l'assistenza", 
+        "Grazie mille per l'assistenza", 
+        "Grazie per la tua assistenza", 
+        "Grazie mille per la tua assistenza", 
+        "Grazie per il supporto", 
+        "Grazie mille per il supporto", 
+        "Grazie per il tuo supporto", 
+        "Grazie mille per il tuo supporto"
+      ],
+      "responses": [
+        "Di nulla, sempre felice di aiutarti!", 
+        "Di nulla, sono qui quando vuoi!", 
+        "Di nulla, lo faccio con piacere, se hai bisogno sono qui!"]
     },
     {
-      "tag": "datimobile",
+      "tag": "dati_mobile",
       "patterns": [
         "Quanti gigabyte ho nel mio piano dati?",
         "Qual è il limite di dati nel mio piano?",
@@ -79,7 +109,7 @@
       ]
     },
     {
-      "tag": "pacchettoelementi",
+      "tag": "pacchetto_elementi",
       "patterns": [
         "Quali elementi sono compresi nel pacchetto?",
         "Che cosa contiene esattamente il pacchetto?",
@@ -95,6 +125,60 @@
         "Ottieni giga illimitati in 5G, minuti e 1000 SMS, chiamate internazionali extra-UE, navigazione prioritaria fino a 2Gbps, navigazione sicura, assistenza immediata e dedicata, soddisfazione garantita, TIM One number e 100GB di Google One con questo pacchetto.",
         "Include giga illimitati in 5G, minuti e 1000 SMS, chiamate internazionali extra-UE, navigazione prioritaria fino a 2Gbps, navigazione sicura, assistenza immediata e dedicata, soddisfazione garantita, TIM One number e 100GB di Google One.",
         "Avvantaggiati di giga illimitati in 5G, minuti e 1000 SMS, chiamate internazionali extra-UE, navigazione prioritaria fino a 2Gbps, navigazione sicura, assistenza immediata e dedicata, soddisfazione garantita, TIM One number e 100GB di Google One con questo pacchetto."
+      ]
+    },
+    {
+      "tag": "fibraottica_prezzi",
+      "patterns": [
+        "Qual è la durata della promozione offerta ai nuovi clienti che passano a TIM da un altro operatore?",
+        "Qual è il costo totale mensile dell'offerta promozionale per i primi 24 mesi?",
+        "Cosa include il costo mensile di 30,90€ durante il periodo promozionale?",
+        "Qual è il prezzo del modem TIM e come può essere rateizzato?",
+        "Qual è la data di scadenza entro cui i nuovi clienti devono passare a TIM per poter usufruire della promozione?",
+        "Quali tecnologie devono avere le offerte degli operatori da cui provengono i nuovi clienti per poter aderire alla promozione?",
+        "Cosa si intende per opzione TIM WiFi Garantito in tutta la casa?",
+        "Qual è il costo mensile dell'offerta dopo i primi 24 mesi?",
+        "Qual è la durata della rateizzazione dell'acquisto del modem TIM?",
+        "Ci sono eventuali condizioni aggiuntive per poter usufruire della promozione?"
+      ],
+      "responses": [
+        "La promozione è valida per i nuovi clienti che passano a TIM da un altro operatore entro l'8/06/2024.",
+        "Il costo totale mensile dell'offerta promozionale per i primi 24 mesi è di 30,90€.",
+        "Il costo mensile include il canone, l'acquisto rateizzato del modem TIM e l'opzione TIM WiFi Garantito in tutta la casa.",
+        "Il costo del modem TIM è di €240, rateizzabile a 10€ per 24 mesi.",
+        "La data di scadenza entro cui i nuovi clienti devono passare a TIM per poter usufruire della promozione è l'8/06/2024.",
+        "Le offerte degli operatori da cui provengono i nuovi clienti devono essere in tecnologia RTG o RTG+ADSL.",
+        "L'opzione TIM WiFi Garantito in tutta la casa assicura una copertura WiFi ottimale in ogni angolo dell'abitazione.",
+        "Dopo i primi 24 mesi, il costo mensile dell'offerta sarà di 35,90€.",
+        "La rateizzazione dell'acquisto del modem TIM avviene a 10€ al mese per 24 mesi.",
+        "Le eventuali condizioni aggiuntive potrebbero essere specificate nei dettagli del contratto e delle promozioni in corso."
+      ]
+    },
+    {
+      "tag": "fibraottica_caratteristiche",
+      "patterns": [
+        "Qual è la velocità della fibra ottica?",
+        "A che velocità viaggia la fibra ottica?",
+        "Qual è la velocità di trasmissione della fibra ottica?",
+        "Quanta velocità offre la connessione in fibra ottica?",
+        "Qual è la velocità massima supportata dalla fibra ottica?",
+        "A che velocità posso navigare con la fibra ottica?",
+        "Quanto è veloce l'accesso tramite fibra ottica?",
+        "Qual è la velocità di upload e download della fibra ottica?",
+        "Che velocità di connessione posso aspettarmi dalla fibra ottica?",
+        "Qual è la velocità media della connessione fibra ottica?"
+      ],
+      "responses": [
+        "La fibra ottica può raggiungere una velocità di 1 gigabit al secondo.",
+        "Con la fibra ottica, è possibile ottenere una velocità di 1 gigabit al secondo.",
+        "La velocità massima supportata dalla fibra ottica è di 1 gigabit al secondo.",
+        "La fibra ottica consente di trasmettere dati a una velocità fino a 1 Gb/s.",
+        "1 Gb/s è la velocità massima che si può ottenere con la fibra ottica.",
+        "La fibra ottica offre una velocità di trasmissione fino a 1 gigabit al secondo.",
+        "La velocità massima di trasmissione della fibra ottica è di 1 gigabit al secondo.",
+        "Con la fibra ottica, è possibile raggiungere una velocità di 1 Gbps.",
+        "1 Gb/s è la velocità di picco che la fibra ottica può raggiungere.",
+        "La fibra ottica può trasmettere dati a una velocità di 1 gigabit per secondo."
       ]
     }
   ]
