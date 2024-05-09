@@ -117,13 +117,13 @@ if user_question:
                     if messaggio.startswith("You:"):
                         colore = "#002949"
                         colore_bordo = "#c8e7ff"
-                        icona="\Model-UI\img\robot.png"
+                        icona="https://github.com/Nicco-2603/ChatBotAI---Project/blob/main/Model-UI/img/person_icon.png?raw=true"
                         
                     else:
                         colore = "#001a2e"
                         colore_bordo = "#41ABFF"
                         direzione_ombra="3px"
-                        icona = "https://media.discordapp.net/attachments/777256549302403142/1235613698580545618/icon3.png?ex=6635026e&is=6633b0ee&hm=04147b16256c74397b720999380a9e9e8706b082a9dc4a9dbdd92acbc2d44ab0&=&format=webp&quality=lossless"
+                        icona = "https://github.com/Nicco-2603/ChatBotAI---Project/blob/main/Model-UI/img/robot_icon.png?raw=true"
                     divs += f"""
 
                         <div style="border:1px solid black;
