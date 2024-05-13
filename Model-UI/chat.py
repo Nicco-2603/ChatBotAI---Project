@@ -146,7 +146,7 @@ if user_question:
             print(f"{bot_name}: Non ho capito, riprova.")
             colore = "#001a2e"
             colore_bordo = "#41ABFF"
-            icona = "https://media.discordapp.net/attachments/777256549302403142/1235613698580545618/icon3.png?ex=6635026e&is=6633b0ee&hm=04147b16256c74397b720999380a9e9e8706b082a9dc4a9dbdd92acbc2d44ab0&=&format=webp&quality=lossless"
+            icona = "https://github.com/Nicco-2603/ChatBotAI---Project/blob/main/Model-UI/img/robot_icon.png?raw=true"
             divs += f"""
                         <div style="border:1px solid black;
                         box-shadow: 3px 3px 0px {colore_bordo};
